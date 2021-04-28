@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+ body {
+	 background: -o-linear-gradient(45deg, teal, skyblue);
+	 background: linear-gradient(45deg, teal, skyblue);
+
+}
+ .card {
+	 background-color: #333;
+	 width: 50vw;
+	 height: auto;
+	 padding: 8% 30px 8.5% 30px;
+	 border-radius: 10px;
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 -webkit-transform: translate(-50%, -50%);
+	 -ms-transform: translate(-50%, -50%);
+	 transform: translate(-50%, -50%);
+	 -webkit-box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+	 box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+}
+ .card .container {
+	 text-align: center;
+}
+ .card .container p {
+	 font-family: "Roboto", sans-serif;
+	 color: whitesmoke;
+	 text-align: center;
+	 font-size: 1.5rem;
+	 margin-top: 0;
+}
+ .card .container input {
+	 margin: 20px 0 0 0;
+	 max-width: 100%;
+	 cursor: pointer;
+	 background-color: #333;
+	 font-family: "Roboto", sans-serif;
+	 font-size: 1rem;
+	 font-weight: 100;
+	 color: whitesmoke;
+	 padding: 12px 24px;
+	 border-radius: 10px;
+	 border: none;
+	 outline: none;
+	 -webkit-box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+	 box-shadow: 1px 1px 8px black, -1px -1px 8px grey;
+	 -webkit-transition: all 0.2s ease;
+	 -o-transition: all 0.2s ease;
+	 transition: all 0.2s ease;
+}
+ .card .container button:hover {
+	 -webkit-box-shadow: 1px 1px 6px black, -1px -1px 6px grey, inset 0 0 5px #323232;
+	 box-shadow: 1px 1px 6px black, -1px -1px 6px grey, inset 0 0 5px #323232;
+}
+ .card .container button:active {
+	 background-color: #323232;
+	 -webkit-box-shadow: 0 0 0 black, 0 0 0 grey, inset 1px 1px 5px black, inset -1px -1px 5px grey;
+	 box-shadow: 0 0 0 black, 0 0 0 grey, inset 1px 1px 5px black, inset -1px -1px 5px grey;
+}
+ @media (max-width: 445px) {
+	 .card .container button {
+		 font-size: 1.2rem;
+	}
+}
+
+  
